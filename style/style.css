@@ -1,0 +1,25 @@
+ul,
+li {
+  list-style-type: none;
+}
+
+.clickable {
+  cursor: pointer;
+}
+.clickable:hover {
+  font-weight: bold;
+}
+
+.deleteButton {
+  color: white;
+  font-weight: bold;
+  background-color: darkred;
+  margin-right: 10px;
+  border-radius: 50%
+}
+
+.deleteButton:hover{
+  color: yellow;
+  cursor: pointer;
+  background-color: rgb(100, 0, 0);
+}
